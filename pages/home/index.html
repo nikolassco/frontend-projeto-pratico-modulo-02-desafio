@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../../css/global.css">
+  <title>Home</title>
+</head>
+
+<body>
+  <div class="container-home">
+    <nav class="navbar">
+      <h1 class="navbar-title">Kontacts</h1>
+      <a href="/index.html" class="navbar-logout"><img src="/assets/Vector.svg" alt="Log out"></a>
+    </nav>
+    <main class="main-home">
+      <button id="btn-add" class="btn-add">Adicionar</button>
+      <table class="table-contacts">
+        <tr class="tr-head">
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Telefone</th>
+          <th class="th-btn">&nbsp;</th>
+        </tr>
+        <tr class="tr-body">
+          <td>Claudia M. Sousa</td>
+          <td>claudia@teste.com.br</td>
+          <td>(99)9999-9999</td>
+          <td class="th-btn"><button class="btn-del"><img src="/assets/Group.svg" alt="Excluir"></button></td>
+        </tr>
+        <tr class="tr-body">
+          <td>João Santos</td>
+          <td>joao@teste.com.br</td>
+          <td>(99)9999-9999</td>
+          <td class="th-btn"><button class="btn-del"><img src="/assets/Group.svg" alt="Excluir"></button></td>
+        </tr>
+        <tr class="tr-body">
+          <td>Pedro Henrique</td>
+          <td>pedro.henrique@teste.com.br</td>
+          <td>(99)9999-9999</td>
+          <td class="th-btn"><button class="btn-del"><img src="/assets/Group.svg" alt="Excluir"></button></td>
+        </tr>
+        <tr class="tr-body">
+          <td>Marina Tavares</td>
+          <td>marina_tavares@teste.com.br</td>
+          <td>(99)9999-9999</td>
+          <td class="th-btn"><button class="btn-del"><img src="/assets/Group.svg" alt="Excluir"></button></td>
+        </tr>
+        <tr class="tr-body">
+          <td>Daniel Lopes</td>
+          <td>dani.lopes@teste.com.br</td>
+          <td>(99)9999-9999</td>
+          <td class="th-btn"><button class="btn-del"><img src="/assets/Group.svg" alt="Excluir"></button></td>
+        </tr>
+        <tr class="tr-body">
+          <td>Guido Cerqueira</td>
+          <td>guido.cerqueira@teste.com.br</td>
+          <td>(99)9999-9999</td>
+          <td class="th-btn"><button class="btn-del"><img src="/assets/Group.svg" alt="Excluir"></button></td>
+        </tr>
+      </table>
+      <div id="modal-add" class="modal-add">
+        <div class="modal-content">
+          <button id="btn-close" class="btn-close"><img src="/assets/btn close.svg" alt="close"></button>
+          <form>
+            <h1 class="title-modal-add">Novo Contato</h1>
+            <input id="input-name-add" type="text" placeholder="Nome" required>
+            <input id="input-email-add" type="email" placeholder="E-mail" required>
+            <input id="input-password-add" type="tel" placeholder="Telefone" required>
+            <button id="btn-confirm-add" class="btn-confirm">Cadastrar</button>
+            <button id="btn-cancel-add" class="btn-cancel">Cancelar</button>
+          </form>
+        </div>
+      </div>
+      <div id="modal-del" class="modal-add">
+        <div class="modal-content">
+          <button id="btn-close-del" class="btn-close"><img src="/assets/btn close.svg" alt="close"></button>
+          <form>
+            <h1 class="title-modal-del">Confirma a exclusão?</h1>
+            <p class="text-modal-del">Deseja excluir o contato?</p>
+            <button id="btn-confirm-del" class="btn-confirm">Excluir</button>
+            <button id="btn-cancel-del" class="btn-cancel">Cancelar</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script type="text/javascript" src="script.js"></script>
+  </div>
+</body>
+
+</html>

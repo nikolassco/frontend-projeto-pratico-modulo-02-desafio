@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.container {
+  display: flex;
+}
+
+.img-wallpaper {
+  width: 40vw;
+}
+
+.container-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 96px;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 338px;
+  width: 477px;
+}
+
+.form p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+.form h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+
+
+  color: #000000;
+  margin: 16px 0 32px;
+}
+
+.form h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  align-self: center;
+  margin-bottom: 40px;
+  color: #000000;
+}
+
+.form input {
+  width: 100%;
+  height: 51px;
+  padding: 16px;
+  margin-bottom: 16px;
+  background: #FDFAFA;
+  border: 1px solid #E8E8E8;
+}
+
+.btn-confirm {
+  width: 100%;
+  height: 50px;
+  color: #ffffff;
+  background: #04C45C;
+  border-radius: 8px;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 64px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.btn-cancel {
+  width: 477px;
+  height: 50px;
+  color: #ffffff;
+  background: #FB0615A6;
+  border-radius: 8px;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 8px;
+
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.btn-confirm:hover {
+  background: #029b4a;
+}
+
+.btn-cancel:hover {
+  background: #b60a15a6;
+}
+
+.text-sign-up {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+
+}
